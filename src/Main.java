@@ -8,4 +8,9 @@ public class Main {
         Assertions.assertTrue(true);
     }
 
+    @Test
+    public void anotherSuperTest(){
+        Assertions.assertFalse(false);
+    }
+
 }
